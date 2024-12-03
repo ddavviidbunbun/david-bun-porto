@@ -21,7 +21,11 @@ export default function Card({ any, fn }: obj) {
           className="cardImg cursor-pointer"
           onClick={() => fn({ status: true, content: any })}
         >
-          <img src={any.urlImg} alt="Frame" className="cardImg" />
+          <img
+            src={import.meta.env.BASE_URL + any.urlImg}
+            alt="Frame"
+            className="cardImg"
+          />
         </div>
         <div className="grid cardGap-1 content-center">
           <span className="sizeTitle block overflow-hidden">{any.title}</span>

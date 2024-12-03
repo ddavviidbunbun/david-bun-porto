@@ -9,7 +9,7 @@ export default function ModalEdu({ fn }: fnSet) {
     <>
       <div className="modal bg-[#292A2D] onlyRounded modal-35text flex flex-col justify-center items-center gap-[10%] relative">
         <img
-          src="/Arrow-exit.svg"
+          src={import.meta.env.BASE_URL + "/Arrow-exit.svg"}
           alt="arrow-exit"
           className="absolute right-[2%] sizeExitArrow top-[3%] cursor-pointer"
           onClick={() => fn(false)}

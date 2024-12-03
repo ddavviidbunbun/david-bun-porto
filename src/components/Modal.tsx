@@ -18,7 +18,7 @@ export default function Modal({ fn, any }: obj) {
     <>
       <div className="bg-[#292A2D] modal overflow-scroll off onlyRounded onlyPad onlyGap flex flex-col relative">
         <img
-          src="/Arrow-exit.svg"
+          src={import.meta.env.BASE_URL + "/Arrow-exit.svg"}
           alt="arrow-exit"
           className="absolute right-[2%] sizeExitArrow top-[3%] cursor-pointer"
           onClick={() => fn({ status: false, content: undefined })}
