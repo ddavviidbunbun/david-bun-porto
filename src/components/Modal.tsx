@@ -28,7 +28,11 @@ export default function Modal({ fn, any }: obj) {
             className="modalImg cursor-pointer"
             onClick={() => fn({ status: false, content: undefined })}
           >
-            <img src={any.urlImg} alt="frame" className="modalImg" />
+            <img
+              src={import.meta.env.BASE_URL + any.urlImg}
+              alt="frame"
+              className="modalImg"
+            />
           </div>
           <div className="flex flex-col onlyGap justify-center overflow-hidden">
             <div className="modal-40text font-hevBold">
