@@ -18,6 +18,7 @@ export default function CorePage() {
         <NavBar />
         <Routes>
           <Route element={<AboutMe />} path="/" />
+          <Route element={<AboutMe />} path="/david-bun-porto" />
           <Route element={<AboutMe />} path="/aboutme" />
           <Route element={<Projects />} path="/projects" />
           <Route element={<Experiences />} path="/experiences" />
