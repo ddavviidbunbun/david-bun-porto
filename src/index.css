@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: black;
+}
+
+@layer base {
+  @font-face {
+    font-family: "Bold";
+    src: url("./assets/fonts/Helvetica-Bold.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Regular";
+    src: url("./assets/fonts/Helvetica.ttf") format("truetype");
+  }
+}

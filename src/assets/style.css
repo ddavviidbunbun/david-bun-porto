@@ -1,0 +1,228 @@
+:root {
+  --width: 69vw;
+  --height: calc(var(--width) * 0.5143769968051);
+  --val: calc(var(--width) * 0.0766773162939);
+  --gap: calc(var(--width) * 0.0159744408945);
+}
+
+.onlyGap {
+  gap: var(--gap);
+}
+
+.onlyRounded {
+  border-radius: calc(var(--width) * 0.0191693290734824);
+}
+.onlyPad {
+  padding-top: calc(var(--width) * 0.0191693290734824);
+  padding-left: calc(var(--width) * 0.0191693290734824);
+}
+.onlyRounded-t {
+  border-top-right-radius: calc(var(--width) * 0.0191693290734824);
+  border-top-left-radius: calc(var(--width) * 0.0191693290734824);
+  width: calc(var(--width) * 0.2888178913738019);
+  height: calc(var(--height) * 0.5391304347826087);
+}
+.onlyRounded-20 {
+  border-radius: calc(var(--width) * 0.012779552715655);
+}
+
+.onlyFontSize {
+  font-size: calc(var(--width) * 0.0255591054313099);
+}
+
+.luasUtama {
+  width: var(--width);
+  height: var(--height);
+  display: grid;
+  grid-template-columns: calc(var(--width) * 0.1501597444089) 1fr;
+  grid-template-rows: 1fr;
+  gap: calc(var(--width) * 0.0159744408945);
+  /* margin-top: calc(100vh * 0.1277777777777); */
+}
+
+.navStyle {
+  padding-top: calc(var(--width) * 0.0440894568690096);
+  font-size: 13px;
+}
+
+.gapNav {
+  gap: calc(var(--width) * 0.0638977635782748);
+}
+
+.luasAboutMe {
+  display: grid;
+  grid-template-columns:
+    calc(var(--width) * 0.2415335463258)
+    calc(var(--width) * 0.2715654952076) calc((var(--width)) * 0.2888178913738);
+  grid-template-rows: 1fr;
+  gap: var(--gap);
+}
+
+.gambarTS {
+  width: var(--val);
+  height: var(--val);
+}
+
+.gambarGitIn {
+  width: calc(var(--width) * 0.1105431309904);
+  height: calc(var(--height) * 0.1863354037267);
+}
+
+.imgGit {
+  width: calc(var(--width) * 0.0741214057507);
+  height: calc(var(--width) * 0.0741214057507);
+}
+
+.imgLin {
+  width: calc(var(--width) * 0.0964856230031);
+  height: calc(var(--height) * 0.1863354037267);
+}
+
+.atasTS {
+  padding-top: calc(var(--height) * 0.0695652173913);
+  height: calc(var(--height) * 0.7826086956521739);
+  padding-bottom: calc(var(--height) * 0.0695652173913);
+}
+
+.atasTSIMG {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: calc(var(--width) * 0.0287539936102);
+  padding-top: calc(var(--height) * 0.0488447204968);
+}
+
+.aboutMe-2 {
+  --satu: calc(var(--height) * 0.577639751552795);
+  --dua: calc(var(--height) * 0.1739130434782609);
+  --tiga: calc(var(--height) * 0.0807453416149068);
+  --empat: calc(var(--height) * 0.0745341614906832);
+  grid-template-rows: var(--satu) var(--dua) var(--tiga) var(--empat);
+  grid-template-columns: calc(var(--width) * 0.2715654952076);
+}
+
+.aboutMe-2-font {
+  padding: -90px;
+  width: calc(var(--width) * 0.2);
+  height: calc(var(--height) * 0.4200993788819876);
+  font-size: calc(var(--width) * 0.0223642172523962);
+  line-height: calc(var(--height) * 0.0496894409937888);
+  letter-spacing: calc(var(--width) * 0.0003194888178913738);
+}
+
+.fontEdu {
+  font-size: calc(var(--width) * 0.0319488817891374);
+}
+.fontGmail {
+  font-size: calc(var(--width) * 0.0172523961661342);
+}
+.fontLokasi {
+  font-size: calc(var(--width) * 0.0191693290734824);
+}
+
+.aboutMe-3 {
+  --lebar: calc(var(--width) * 0.2888178913738);
+  --satu: calc(var(--width) * 0.5391304347826087);
+  --dua: calc(var(--height) - val(--satu));
+  grid-template-columns: var(--lebar);
+  grid-template-rows: var(--satu) var(--dua);
+  font-size: calc(var(--width) * 0.0223642172523962);
+}
+
+.cardGrid {
+  width: calc(var(--width) * 0.5942492012779553);
+  height: calc(var(--height) * 0.3354037267080745);
+  display: grid;
+  grid-template-rows: calc(var(--height) * 0.3354037267080745);
+  grid-template-columns: calc(var(--width) * 0.2300319488817891) 1fr;
+}
+
+.cardImg {
+  width: calc(var(--width) * 0.2300319488817891);
+  height: calc(var(--height) * 0.3354037267080745);
+}
+
+.sizeTitle {
+  font-size: calc(var(--width) * 0.0255591054313099);
+  line-height: calc(var(--width) * 0.0287539936102236);
+}
+
+.sizeDatenDesc {
+  font-size: calc(var(--width) * 0.0166134185303514);
+}
+.lineHDD {
+  line-height: calc(var(--width) * 0.0191693290734824);
+}
+.cardGap-1 {
+  grid-template-rows: calc(var(--height) * 0.1142857142857143);
+  grid-template-columns: calc(var(--width) * 0.3450479233226837);
+  gap: calc(var(--width) * 0.0063897763578275);
+}
+.cardGap-2 {
+  gap: calc(var(--width) * 0.0095846645367412);
+  width: calc(var(--width) * 0.3450479233226837);
+  height: calc(var(--height) * 0.1739130434782609);
+}
+
+.off::-webkit-scrollbar {
+  display: none;
+}
+
+.off {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.modal {
+  width: calc(var(--width) * 0.8338658146964856);
+  height: calc(var(--height) * 1);
+}
+
+.modalEdu {
+  width: calc(var(--width) * 0.8338658146964856 * 10 / 11);
+}
+
+.modalMainFrame {
+  grid-template-columns: calc(var(--width) * 0.255591054313099) 1fr;
+  grid-template-rows: calc(var(--height) * 0.3726708074534161);
+}
+
+.modalImg {
+  width: calc(var(--width) * 0.255591054313099);
+  height: calc(var(--height) * 0.3726708074534161);
+}
+
+.modalSpc-3 {
+  word-spacing: 30px;
+}
+
+.modal-40text {
+  font-size: calc(var(--width) * 0.0255591054313099);
+}
+
+.modal-30text {
+  font-size: calc(var(--width) * 0.0191693290734824);
+}
+
+.modal-35text {
+  font-size: calc(var(--width) * 0.0223642172523962);
+}
+
+.modalLH {
+  line-height: calc(var(--width) * 0.010223642172524 * 2);
+}
+
+.modalJobLuas {
+  height: calc(var(--height) * 0.0496894409937888);
+  width: calc(var(--width) * 0.5750798722044728);
+}
+
+.modalUORLIST {
+  list-style-type: circle;
+  list-style-position: outside;
+  padding-left: calc(var(--width) * 0.0089456869009585 * 2);
+}
+
+.sizeExitArrow {
+  width: calc(var(--width) * 0.012779552715655 * 2);
+  height: auto;
+}
