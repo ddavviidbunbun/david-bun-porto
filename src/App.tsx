@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import CorePage from "./pages/CorePage";
+import "./assets/style.css";
 
 function App() {
   const [isMobile, setIsMobile] = useState(window.innerWidth);
@@ -20,7 +21,10 @@ function App() {
           <CorePage />
         ) : (
           <>
-            <div>Mobile</div>
+            <div className="flex flex-col text-3xl gap-14 justify-center items-center">
+              <div>Currently still working on the Mobile version</div>
+              <div>Please open it on Desktop or Tablet</div>
+            </div>
           </>
         )}
       </div>
