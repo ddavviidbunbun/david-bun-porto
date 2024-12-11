@@ -1,7 +1,7 @@
 export const contentsExperiences = [
     {
         urlImg: "/umneco.png",
-        title: "I works as web developer in UMN ECO 2022",
+        title: "I worked as web developer at UMN ECO 2022",
         date: "July 2024 - December 2024",
         shortDesc:
             "An Organization center around eco friendly things at Multimedia Nusantara University. Contributed as Front-End Developer in Orta, website division.",
